@@ -1,0 +1,205 @@
+{
+  "$type": "ThunderRoad.DamagerData, ThunderRoad",
+  "id": "LightsaberSlash",
+  "saveFolder": "bas",
+  "version": 1,
+  "damageModifierId": "LightsaberSlashMat",
+  "tiers": [
+    {
+      "$type": "ThunderRoad.DamagerData+Tier, ThunderRoad",
+      "damageMultiplier": 999999.0,
+      "maxVerticalAngle": 90.0,
+      "maxHorizontalAngle": 90.0,
+      "maxNormalAngle": 90.0,
+      "dismembermentMinVelocityMultiplier": 0.1,
+      "dismembermentMaxVerticalAngle": 180.0,
+      "dismembermentMaxHorizontalAngle": 180.0
+    },
+    {
+      "$type": "ThunderRoad.DamagerData+Tier, ThunderRoad",
+      "damageMultiplier": 999999.0,
+      "maxVerticalAngle": 90.0,
+      "maxHorizontalAngle": 90.0,
+      "maxNormalAngle": 90.0,
+      "dismembermentMinVelocityMultiplier": 0.1,
+      "dismembermentMaxVerticalAngle": 180.0,
+      "dismembermentMaxHorizontalAngle": 180.0
+    },
+    {
+      "$type": "ThunderRoad.DamagerData+Tier, ThunderRoad",
+      "damageMultiplier": 999999.0,
+      "maxVerticalAngle": 90.0,
+      "maxHorizontalAngle": 90.0,
+      "maxNormalAngle": 90.0,
+      "dismembermentMinVelocityMultiplier": 0.1,
+      "dismembermentMaxVerticalAngle": 180.0,
+      "dismembermentMaxHorizontalAngle": 180.0
+    },
+    {
+      "$type": "ThunderRoad.DamagerData+Tier, ThunderRoad",
+      "damageMultiplier": 999999.0,
+      "maxVerticalAngle": 90.0,
+      "maxHorizontalAngle": 90.0,
+      "maxNormalAngle": 90.0,
+      "dismembermentMinVelocityMultiplier": 0.1,
+      "dismembermentMaxVerticalAngle": 180.0,
+      "dismembermentMaxHorizontalAngle": 180.0
+    },
+    {
+      "$type": "ThunderRoad.DamagerData+Tier, ThunderRoad",
+      "damageMultiplier": 999999.0,
+      "maxVerticalAngle": 90.0,
+      "maxHorizontalAngle": 90.0,
+      "maxNormalAngle": 90.0,
+      "dismembermentMinVelocityMultiplier": 0.1,
+      "dismembermentMaxVerticalAngle": 180.0,
+      "dismembermentMaxHorizontalAngle": 180.0
+    },
+    {
+      "$type": "ThunderRoad.DamagerData+Tier, ThunderRoad",
+      "damageMultiplier": 999999.0,
+      "maxVerticalAngle": 90.0,
+      "maxHorizontalAngle": 90.0,
+      "maxNormalAngle": 90.0,
+      "dismembermentMinVelocityMultiplier": 0.1,
+      "dismembermentMaxVerticalAngle": 180.0,
+      "dismembermentMaxHorizontalAngle": 180.0
+    }
+  ],
+  "velocityDamageCurve": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 999999.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 15.0,
+        "value": 999999.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "minSelfVelocity": 0.0,
+  "intensityMinVelocity": 0.0,
+  "intensityMaxVelocity": 0.0,
+  "hitDelayByCollider": 0.05,
+  "playerDamageMultiplier": 0.0,
+  "playerMinDamage": 0.0,
+  "playerMaxDamage": 0.0,
+  "selfDamage": false,
+  "staticVelocityDamageCurve": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.1,
+        "value": 999999.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 8.0,
+        "value": 999999.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "throwedMultiplier": 2.0,
+  "badAngleBluntFallback": false,
+  "badAngleDamage": 2.0,
+  "badAngleRecoilMultiplier": 0.0,
+  "badAngleMaterialDamageId": null,
+  "dyingAnimationMaxVelocity": 20.0,
+  "addForce": 2.0,
+  "addForceState": "Handled",
+  "addForceTargetType": "All",
+  "addForceMode": "Impulse",
+  "addForceDuration": 0.0,
+  "addForceRagdollPartMultiplier": 0.0,
+  "addForceRagdollOtherMultiplier": 0.0,
+  "addForceSlowMoMultiplier": 1.0,
+  "addForceNormalize": false,
+  "penetrationAllowed": true,
+  "penetrationDeepDepthMultiplier": 2.0,
+  "penetrationDamage": 999999.0,
+  "penetrationEffect": true,
+  "penetrationInitialVelocityMultiplier": 10.0,
+  "penetrationSkewerDetection": true,
+  "penetrationSkewerDamage": 999999.0,
+  "penetrationHeldDamperIn": 0.0,
+  "penetrationHeldDamperOut": 0.0,
+  "penetrationDamper": 0.0,
+  "penetrationShortDepth": 0.05,
+  "penetrationShortDepthAngle": 45.0,
+  "penetrationAllowSlide": true,
+  "penetrationSlideDamper": 0.0,
+  "penetrationTempModifier": "Always",
+  "penetrationTempModifierDuration": 1.0,
+  "penetrationTempModifierDamperIn": 0.0,
+  "penetrationTempModifierDamperOut": 0.0,
+  "penetrationPressureAllowed": true,
+  "penetrationPressureForceCurve": {
+    "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+    "keys": [
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 0.0,
+        "value": 3.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      },
+      {
+        "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
+        "time": 2.0,
+        "value": 5.0,
+        "inTangent": 0.0,
+        "outTangent": 0.0,
+        "inWeight": 0.0,
+        "outWeight": 0.0,
+        "weightedMode": "None",
+        "tangentMode": 0
+      }
+    ],
+    "length": 2,
+    "preWrapMode": "ClampForever",
+    "postWrapMode": "ClampForever"
+  },
+  "penetrationPressureMaxDot": 0.1,
+  "dismembermentAllowed": true,
+  "dismembermentMinVelocity": 0.5,
+  "dismembermentNoPenetrationDuration": 0.05
+}

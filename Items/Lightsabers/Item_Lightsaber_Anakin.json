@@ -2,16 +2,22 @@
   "$type": "ThunderRoad.ItemData, ThunderRoad",
   "id": "Lightsaber_Anakin",
   "version": 4,
-  "modules": [
+  "modules": [],
+  "damagers": [
     {
-		"$type": "DynamicBreakables.DynamicBreakableItemModule, DynamicBreakables",
-		"MaterialModifiers": [
-			{
-				"MaterialId": "Lightsaber",
-				"HealthMultiplier": 999999999,
-				"DamageMultiplier": 999999999
-			}
-		]
-	}
+      "$type": "ThunderRoad.ItemData+Damager, ThunderRoad",
+      "transformName": "Pierce",
+      "damagerID": "LightsaberPierce"
+    },
+    {
+      "$type": "ThunderRoad.ItemData+Damager, ThunderRoad",
+      "transformName": "Slash",
+      "damagerID": "LightsaberSlash"
+    },
+    {
+      "$type": "ThunderRoad.ItemData+Damager, ThunderRoad",
+      "transformName": "Blunt",
+      "damagerID": "LightsaberSlash"
+    }
   ]
 }

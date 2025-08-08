@@ -1,0 +1,75 @@
+{
+  "$type": "ThunderRoad.DamageModifierData, ThunderRoad",
+  "id": "LightsaberSlashMat",
+  "saveFolder": "bas",
+  "version": 1,
+  "damageType": "Slash",
+  "collisions": [
+    {
+      "$type": "ThunderRoad.DamageModifierData+Collision, ThunderRoad",
+      "sourceMaterialIds": [],
+      "targetMaterialIds": [
+        "Flesh",
+        "Fabric",
+        "Leather",
+        "Wood",
+        "Chainmail",
+        "Plate",
+        "Metal",
+        "Stone",
+        "Sand",
+        "Dirt",
+        "Blade",
+        "Rope",
+        "Glass",
+        "Crystal",
+        "Ceramic",
+        "Plastic",
+        "Rubber",
+        "Ice",
+        "Bone"
+      ],
+      "modifiers": [
+        {
+          "$type": "ThunderRoad.DamageModifierData+Modifier, ThunderRoad",
+          "tierFilter": 0,
+          "imbuesFilterLogic": "AnyExcept",
+          "imbuesFilter": [],
+          "minVelocity": 0.03,
+          "damageMultiplier": 999999.0,
+          "allowKnockout": false,
+          "allowPenetration": true,
+          "pressureAllowed": true,
+          "knockoutAllowedMinVelocity": "Infinity",
+          "knockoutForcedMinVelocity": "Infinity",
+          "knockoutThrowAllowedMinVelocity": "Infinity",
+          "knockoutThrowForcedMinVelocity": "Infinity",
+          "knockoutDurationMultiplier": 1.0,
+          "pushLevels": [
+            {
+              "$type": "ThunderRoad.DamageModifierData+Modifier+PushLevel, ThunderRoad",
+              "hitVelocity": 2.0,
+              "throwVelocity": 2.0
+            },
+            {
+              "$type": "ThunderRoad.DamageModifierData+Modifier+PushLevel, ThunderRoad",
+              "hitVelocity": 4.0,
+              "throwVelocity": 4.0
+            }
+          ],
+          "penetrationMinVelocity": 0.05,
+          "penetrationDamperMultiplier": 0.1,
+          "penetrationVelocityMaxDepth": false,
+          "penetrationVelocityMaxDepthCurve": {
+            "$type": "UnityEngine.AnimationCurve, UnityEngine.CoreModule",
+            "keys": [],
+            "length": 0,
+            "preWrapMode": "ClampForever",
+            "postWrapMode": "ClampForever"
+          },
+          "pressureForceMultiplier": 1.5
+        }
+      ]
+    }
+  ]
+}
