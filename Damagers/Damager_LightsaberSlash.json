@@ -163,7 +163,7 @@
   "penetrationShortDepthAngle": 45.0,
   "penetrationAllowSlide": true,
   "penetrationSlideDamper": 0.0,
-  "penetrationTempModifier": "Always",
+  "penetrationTempModifier": "OnThrow",
   "penetrationTempModifierDuration": 1.0,
   "penetrationTempModifierDamperIn": 0.0,
   "penetrationTempModifierDamperOut": 0.0,

@@ -1,8 +1,44 @@
-﻿{
+{
   "$type": "ThunderRoad.ItemData, ThunderRoad",
   "id": "Lightsaber_DarthVader_EP4",
   "version": 4,
-  "modules": [],
+      "modules": [
+      {
+		"$type": "DynamicBreakables.DynamicBreakableItemModule, DynamicBreakables",
+		"MaterialModifiers": [
+			{
+				"MaterialId": "Lightsaber",
+				"HealthMultiplier": 999999999,
+				"DamageMultiplier": 999999999
+			},
+			{
+				"MaterialId": "Metal",
+				"HealthMultiplier": 999999999,
+				"DamageMultiplier": 999999999
+			},
+			{
+				"MaterialId": "Wood",
+				"HealthMultiplier": 999999999,
+				"DamageMultiplier": 999999999
+			},
+			{
+				"MaterialId": "Steel",
+				"HealthMultiplier": 999999999,
+				"DamageMultiplier": 999999999
+			},
+			{
+				"MaterialId": "Iron",
+				"HealthMultiplier": 999999999,
+				"DamageMultiplier": 999999999
+			},
+			{
+				"MaterialId": "Default",
+				"HealthMultiplier": 999999999,
+				"DamageMultiplier": 999999999
+			}
+		]
+	}
+  ],
   "damagers": [
     {
       "$type": "ThunderRoad.ItemData+Damager, ThunderRoad",
@@ -21,3 +57,9 @@
     }
   ]
 }
+
+
+
+
+
+

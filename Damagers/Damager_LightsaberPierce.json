@@ -7,7 +7,7 @@
   "tiers": [
     {
       "$type": "ThunderRoad.DamagerData+Tier, ThunderRoad",
-      "damageMultiplier": 999999.0,
+      "damageMultiplier": 99999999.0,
       "maxVerticalAngle": 45.0,
       "maxHorizontalAngle": 45.0,
       "maxNormalAngle": 90.0,
@@ -17,7 +17,7 @@
     },
     {
       "$type": "ThunderRoad.DamagerData+Tier, ThunderRoad",
-      "damageMultiplier": 999999.0,
+      "damageMultiplier": 99999999.0,
       "maxVerticalAngle": 45.0,
       "maxHorizontalAngle": 45.0,
       "maxNormalAngle": 90.0,
@@ -27,7 +27,7 @@
     },
     {
       "$type": "ThunderRoad.DamagerData+Tier, ThunderRoad",
-      "damageMultiplier": 999999.0,
+      "damageMultiplier": 99999999.0,
       "maxVerticalAngle": 45.0,
       "maxHorizontalAngle": 45.0,
       "maxNormalAngle": 90.0,
@@ -37,7 +37,7 @@
     },
     {
       "$type": "ThunderRoad.DamagerData+Tier, ThunderRoad",
-      "damageMultiplier": 999999.0,
+      "damageMultiplier": 99999999.0,
       "maxVerticalAngle": 45.0,
       "maxHorizontalAngle": 45.0,
       "maxNormalAngle": 90.0,
@@ -47,7 +47,7 @@
     },
     {
       "$type": "ThunderRoad.DamagerData+Tier, ThunderRoad",
-      "damageMultiplier": 999999.0,
+      "damageMultiplier": 99999999.0,
       "maxVerticalAngle": 45.0,
       "maxHorizontalAngle": 45.0,
       "maxNormalAngle": 90.0,
@@ -57,7 +57,7 @@
     },
     {
       "$type": "ThunderRoad.DamagerData+Tier, ThunderRoad",
-      "damageMultiplier": 999999.0,
+      "damageMultiplier": 99999999.0,
       "maxVerticalAngle": 45.0,
       "maxHorizontalAngle": 45.0,
       "maxNormalAngle": 90.0,
@@ -72,7 +72,7 @@
       {
         "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
         "time": 0.0,
-        "value": 999999.0,
+        "value": 1.0,
         "inTangent": 0.0,
         "outTangent": 0.0,
         "inWeight": 0.0,
@@ -83,7 +83,7 @@
       {
         "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
         "time": 15.0,
-        "value": 999999.0,
+        "value": 1.0,
         "inTangent": 0.0,
         "outTangent": 0.0,
         "inWeight": 0.0,
@@ -110,7 +110,7 @@
       {
         "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
         "time": 0.1,
-        "value": 999999.0,
+        "value": 1.0,
         "inTangent": 0.0,
         "outTangent": 0.0,
         "inWeight": 0.0,
@@ -121,7 +121,7 @@
       {
         "$type": "UnityEngine.Keyframe, UnityEngine.CoreModule",
         "time": 10.0,
-        "value": 999999.0,
+        "value": 1.0,
         "inTangent": 0.0,
         "outTangent": 0.0,
         "inWeight": 0.0,
@@ -151,11 +151,11 @@
   "addForceNormalize": false,
   "penetrationAllowed": true,
   "penetrationDeepDepthMultiplier": 3.0,
-  "penetrationDamage": 999999.0,
+  "penetrationDamage": 999999999.0,
   "penetrationEffect": true,
   "penetrationInitialVelocityMultiplier": 10.0,
   "penetrationSkewerDetection": true,
-  "penetrationSkewerDamage": 999999.0,
+  "penetrationSkewerDamage": 999999999.0,
   "penetrationHeldDamperIn": 0.0,
   "penetrationHeldDamperOut": 0.0,
   "penetrationDamper": 0.0,
@@ -163,7 +163,7 @@
   "penetrationShortDepthAngle": 30.0,
   "penetrationAllowSlide": false,
   "penetrationSlideDamper": 0.0,
-  "penetrationTempModifier": "Always",
+  "penetrationTempModifier": "OnThrow",
   "penetrationTempModifierDuration": 1.0,
   "penetrationTempModifierDamperIn": 0.0,
   "penetrationTempModifierDamperOut": 0.0,
